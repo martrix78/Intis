@@ -5,12 +5,10 @@
  *
  * @author Andrew Russkin <andrew.russkin@gmail.com>
  */
-require_once '../controllers/UpdateController.php';
 require_once '../models/Model.php';
 require_once '../core/DbConnect.php';
 use core\DbConnect;
 use models\Model;
-use controllers\UpdateController;
 
 class ModelTest extends PHPUnit_Framework_TestCase{
 
