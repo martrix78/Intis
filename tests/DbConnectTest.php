@@ -13,7 +13,7 @@ class DbConnectTest extends PHPUnit_Framework_TestCase{
 	public function testgetDb(){
 		$class = new DbConnect();
 		$class->dbName='test';
-		$class->dbPassword='5157068';
+		$class->dbPassword='';
 		$class->dbUser='root';
 		$class->host='localhost';
 		$dsn = 'mysql:host='.$class->host.';dbname='.$class->dbName.';charset=utf8';
