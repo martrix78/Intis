@@ -20,7 +20,7 @@ class DbConnect {
 	public $dbUser = 'root';
 
 	/* @var $dbPassword string */
-	public $dbPassword = '5157068';
+	public $dbPassword = '';
 
 	/**
 	 * Коннект к бд
